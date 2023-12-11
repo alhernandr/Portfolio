@@ -42,13 +42,12 @@
           src="/img/produccionCorto.png"
           alt="Produccion"
         />
-
-        </a>
         <div class="project__desc" data-lenguaje="produccion">
           <div class="desc__container">
             <h3 class="project__title">Volver A Creer</h3>
             <p class="project__category">Produccion Corto</p>
           </div>
+          </a>
         </div>
         
       </div>

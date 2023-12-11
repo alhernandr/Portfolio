@@ -1,5 +1,7 @@
 <!-- Contact -->
 
+
+
 <div class="full_footer">
 <section id="contact">
     <div class="contact__Container">
@@ -22,37 +24,43 @@
           </div>
         </div>
 <!------------------------------FORM------------------------------------>
-        <div class="contact__form">
+      <p id="msg"></p>  
+      <div class="contact__form">
           <h2 class="contactData__title">SEND US A NOTE</h2>
-          <form action="" method="GET">
-          <input name="name" type="text" class="form__input" required="" placeholder="Name"/>
-          <input name="email" type="email" class="form__input" required="" placeholder="Email"/>
+          <form method= "POST" id="formEmail">
+            <input id="name" name="name" type="text" class="form__input" placeholder="Name" required/>
+            <input id="email" name="email" type="email" class="form__input" placeholder="Email" required/>
 
-          <div class="text__container">
-            <textarea name="text_msg" class="form__input" rows="5" required="" placeholder="Tell us more about your needs......"></textarea>
-          </div>
+            <div class="text__container">
+              <textarea id="message"name="text_msg" class="form__input" rows="5" placeholder="Tell me more about your needs..." required></textarea>
+            </div>
 
-          <div class="send__button">
-            <a href="mailto:alvaro29032000@gmail.com" class="form__button">Send Message</a>
-          </div>
-        </form>
+            <div class="send__button">
+            <button class="form__button" onclick="enviarFormulario()" type="button" id="button"><a >Send Message</a></button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
   </section>
 
   <!-- footer -->
-  <footer class="footer__container">
-    <p class="footer__desc">
-        All Rights Reserved.
-    </p>
-    <ul class="footer__list">
-      <li class="footer__linkItem"><a>Terms & Policy</a></li>
-      <li class="footer__linkItem"><a>Disclaimer</a></li>
-    </ul>
-  </footer>
+    <footer class="footer__container">
+      <p class="footer__desc">
+          All Rights Reserved.
+      </p>
+      <ul class="footer__list">
+        <li class="footer__linkItem"><a>Terms & Policy</a></li>
+        <li class="footer__linkItem"><a>Disclaimer</a></li>
+      </ul>
+    </footer>
   </div>
-</body>
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
-<script src="validarCorreo.js"></script>
+  <script type="text/javascript">
+    emailjs.init('8fVNCHFhXG90q8PY9')
+  </script>
+  <script src="../js/validarFormulario.js"></script>
+</body>
 </html>

@@ -9,10 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
     <link rel="website icon" type="png" href="..\img\newLogo-nb.png">
-<!-------------------------------------------------LINKS------------------------------------------------------------------>    
-    <link rel="stylesheet" href="./css/styles.css">
-    <script src="/burger.js"></script>
-    
+<!-------------------------------------------------LINKS------------------------------------------------------------------>      
+<link rel="stylesheet" href="../css/styles.css">  
+
+<script src="../js/filtrar.js"></script>
+<script src="../js/objetoPre.js"></script>
 <!-----------------------------------------WEBSITE-------TITLE------------------------------------------------------------>    
 <title>Álvaro's Portfolio</title>
 </head>

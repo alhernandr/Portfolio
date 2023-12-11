@@ -16,8 +16,9 @@
             Developer
           </h2>
           <p class="aboutParag__desc">
-            I'm a student of Web Applications Development, before that i have graduated as a Interior designer and a productor for audiovisuals and shows.
-            With my knowlodge on these three sectors I can make an atractive web for your bussiness, events or whatever you need.
+              I'm studying Web Applications Development and have degrees in Interior Design and Audiovisual Production. 
+              I can create cool and functional websites for your business or events. Whether it's for your company or a special occasion, 
+              I can make a website that looks good and works well. Let me use my skills to build a great online presence for you.
           </p>
       </div>
           <div class="about__table">

@@ -1,6 +1,10 @@
 <?php
 include '.\includes\templates\header.php';
 ?>
+
+<noscript>
+  <h1>Javascript no esta habilitado. Por favor, habilítelo para continuar</h1>
+</noscript>
 <!-- Home -->
   <header id="home">
     <div class="home__Container">
@@ -15,7 +19,5 @@ include '.\includes\templates\header.php';
     </div>
   </header>
 <?php
-
 include '.\includes\templates\footer.php';
 ?>
-<script src="/js/AvisoJS.js"></script>

@@ -636,7 +636,8 @@
   }
   
   .photo__item:hover > .project__desc {
-    display: block;
+    display: block
+    
   }
   
   .project__desc {
@@ -651,6 +652,7 @@
     text-align: center;
     display: none;
     /* padding:20px; */
+    text-decoration: none;
   }
   
   .desc__container {
