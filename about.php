@@ -44,8 +44,6 @@
           frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe width="582" height="352" src="https://www.youtube.com/embed/8ykfcnVkh5g?si=P2pDrlkkHLCwwGJf" title="YouTube video player" 
           frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <iframe src="https://open.spotify.com/embed/playlist/5eyozUpAicQBpImEdBMCOt?utm_source=generator&theme=0" width="35%" height="352" 
-          frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         
       </div>
     

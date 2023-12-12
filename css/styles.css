@@ -104,76 +104,8 @@
     color: var(--button__color);
   }
   
-  .socialItem {
-    padding-left: 20px;
-    position: relative;
-  }
   
-  .socialItem .tooltiptext__fb,
-  .socialItem .tooltiptext__tw,
-  .socialItem .tooltiptext__dr{
-    visibility: hidden;
-    width: 80px;
-    background-color: var(--black__color);
-    color: var(--white__color);
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    font-size: 12px;
-    /* Position the tooltip */
-    position: absolute;
-    top: 80%;
-    right: -10%;
-    z-index: 1;
-  }
   
-  .socialItem:hover .tooltiptext__fb,
-  .socialItem:hover .tooltiptext__tw,
-  .socialItem:hover .tooltiptext__dr{
-    visibility: visible;
-  }
-  
-  /*=========================Mobile Bar==============================*/
-  .navbar__barIcon {
-    color: var(--white__color);
-    font-size: 35px;
-    cursor: pointer;
-  }
-  
-  #btnControl {
-    display: none;
-  }
-  
-  /* #btnControl:checked ~ ul.mobileList {
-    display: block;
-  } */
-  
-  .mobileList {
-    display: none;
-    position: absolute;
-    top: 80px;
-    left: 0;
-    right: 0;
-    height: auto;
-    list-style: none;
-    list-style-type: none;
-    background-color: rgba(0, 0, 0, 0.7);
-  }
-  
-  .mobileItem {
-    width: 90%;
-    margin: auto;
-    padding: 8px 0;
-    border-bottom: 1px solid rgba(234, 234, 234, 0.4);
-  }
-  .mobileItem:last-child {
-    border-bottom: unset;
-  }
-
-  .mobileItem a {
-    color: var(--white__color);
-    text-decoration: none;
-  }
   
   /**************************************************************************************************/
   
@@ -380,6 +312,13 @@
     background-color:var(--hoverButton__color);
   }
   
+  .about__likes{
+    margin-left: 5rem;
+    padding: 2rem;
+    color: #252B33;
+}
+
+
   .video {
     display: flex;
     flex-direction: row;
@@ -389,18 +328,20 @@
 
   }
 
-  .about__likes{
-    margin-left: 5rem;
-    padding: 2rem;
-    color: #252B33;
-}
+  
 
-  @media screen and (min-width: 470px) {
+  @media screen and (max-width: 769px) {
     .video{
-      margin-right: 70px;
+      flex-direction: column;
+      margin-right: 140px;
       margin-left: 120px;
       height: 43vh;
     } 
+    .video iframe{
+      -ms-grid-row-span: 1;
+      column-span: 1;
+      width: 70%;
+    }
   }
   
   
@@ -878,7 +819,7 @@
     width: 3rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .hamburger-menu {
         display: block;
     }
@@ -886,7 +827,7 @@
 
   /*******************************************   RWD  *****************************************/
   
-  @media screen and (min-width: 991.98px) {
+  @media screen and (max-width: 767px) {
     .navbar__listItem--mobile {
       display: none;
     }
@@ -895,7 +836,7 @@
     }
   }
   
-  @media screen and (max-width: 1199.98px) {
+  @media screen and (max-width: 769px) {
     .services__cards {
       margin: auto;
     }
@@ -905,14 +846,14 @@
     }
   }
   
-  @media screen and (max-width: 991.98px) {
+  @media screen and (max-width: 769px) {
     #btnControl:checked ~ ul.mobileList {
       display: block;
     }
   
     .navbar__socialItem,
     .navbar__listItem {
-      display: none;
+      display: contents;
     }
    
     .navbar__row {
@@ -975,7 +916,7 @@
     }
   }
   
-  @media screen and (max-width: 767.98px) {
+  @media screen and (max-width: 769px) {
     .text__overlap {
       /* font-size: 25px; */
       font-size: calc(22px + 0.3vw);
@@ -1127,5 +1068,17 @@
     }
   }
 
-  
-  
+  table {
+    margin-top: 5rem;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  table, th, td {
+    /*border: 1px solid black;*/
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }

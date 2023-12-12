@@ -18,6 +18,7 @@ include '.\includes\templates\header.php';
       </div>
     </div>
   </header>
+  
 <?php
 include '.\includes\templates\footer.php';
 ?>

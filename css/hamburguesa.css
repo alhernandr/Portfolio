@@ -1,4 +1,4 @@
-* MENU MÓVIL */
+
 /* MENÚ DESPLEGABLE */
 
 .alignTitle{
@@ -6,10 +6,13 @@
   padding-left: 15px;
 }
 
+.logoIMG{
+  background: url("../../img/newLogo.jpg");
+  background-color: black;
+}
 
 .nav{
-
-  display: none;
+  
   --img1: scale(1);
   --img2: scale(0);
 }
@@ -143,5 +146,11 @@
   color: turquoise;
 }
 
+@media screen and (min-width: 768px) {
+  .nav{
+    display: contents;
+    text-align: center;
+  }
+}
 
 /* FIN MENÚ DESPLEGABLE */
