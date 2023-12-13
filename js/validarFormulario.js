@@ -6,8 +6,7 @@ class ValidadorFormulario {
   }
 
   validar() {
-
-
+    
       // Expresión regular para validar el formato de un correo electrónico
       const expresionRegularCorreo = /^[a-zA-Z0-9]{1,50}@[a-zA-Z0-9]{5,7}\.(com|es|org)$/;
       // Verificar si el correo coincide con la expresión regular

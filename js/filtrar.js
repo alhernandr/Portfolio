@@ -12,3 +12,6 @@ function filtrarProyectos(lenguaje) {
         }
     }
 }
+
+var operacion = "el resultado es: " + (1+2);
+  console.log(operacion)
